@@ -1,67 +1,8 @@
 /*@import-normalize;*/
 
-body {
-    font-family: "Source Code Pro", sans-serif;
-    text-decoration: none;
-}
-
-.content {
-    padding: 0.1% 10%;
-}
-
-.name h1 {
-    margin: 20px;
-}
-
-.content h2 {
-    margin-top: 1em;
-    color: grey;
-}
-
-.contacthead {
-    margin: 20px;
-    color: #111;
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 70px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    text-align: center;
-}
-
-.form {
-    text-align: start;
-    margin: 0 30% 0;
-    padding: 10px;
-}
-
-.dropdown {
-    font-style: inherit;
-}
-
-.formlabels {
-    color: black;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 2px;
-}
 
 .pagenav {
     text-align: center;
-}
-
-.submit {
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 5px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-family: inherit;
 }
 
 .submit:hover {
@@ -114,27 +55,6 @@ body {
 }
 
 
-.image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: relative;
-}
-
-.textarea {
-    border: thin none grey;
-    border-bottom-style: solid;
-    word-wrap: normal;
-    overflow: auto;
-    font-size: 1rem;
-    line-height: 1.5em;
-    font-family: inherit;
-    resize: none;
-    outline: none;
-    width: 80%;
-    max-width: 900px;
-}
-
 .pagenav ul {
     display: inline-block;
     margin: 0;
@@ -145,13 +65,6 @@ body {
     text-decoration: none;
     color: gray;
     font-weight: bold;
-}
-
-hr {
-    height: 2px;
-    color: grey;
-    width: 75%;
-    background-color: grey;
 }
 
 .pagenav a:hover {
@@ -189,6 +102,9 @@ hr {
     background-color: rgb(13, 14, 14);
     font-weight: bolder;
 }
+
+
+
 
 .webnavbutton a.active {
     background-color: #f2f2f2;
@@ -234,11 +150,3 @@ hr {
     background-image: linear-gradient(to right, black 0, black 100%);
 }
 
-.body p {
-    color: #f2f2f2;
-    font-size: 40px;
-    line-height: 54px;
-    font-weight: 700;
-    float: left;
-    padding: 2px;
-}

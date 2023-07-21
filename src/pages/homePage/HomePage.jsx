@@ -1,4 +1,4 @@
-
+import './homepage.css'
 import wolf from "../../assets/images/Wolf.jpg";
 import {ContentNavButton} from "./ContentNavButton";
 import {ContentBody} from "./ContentBody";
