@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from "react-router-dom"
-
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {DevSupport} from "@react-buddy/ide-toolbox";
@@ -14,9 +11,7 @@ root.render(
         <DevSupport ComponentPreviews={ComponentPreviews}
                     useInitialHook={useInitial}
         >
-          <BrowserRouter>
               <App/>
-          </BrowserRouter>
         </DevSupport>
     </React.StrictMode>
 );
