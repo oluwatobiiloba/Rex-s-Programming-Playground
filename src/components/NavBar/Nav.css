@@ -19,7 +19,7 @@
 
 .navbar ul {
     display: flex;
-    align-content: end;
+    align-content: flex-end;
     justify-items: end;
     margin: 0;
     padding: 0;
